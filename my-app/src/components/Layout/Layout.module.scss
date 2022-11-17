@@ -3,9 +3,16 @@
     flex-direction: column;
     min-height: 100vh;
 }
+
 .content {
+    padding: 50px 100px;
+    flex-direction: column;
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        padding: 20px 20px;
+    }
 }
