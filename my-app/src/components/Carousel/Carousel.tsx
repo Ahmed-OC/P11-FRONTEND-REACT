@@ -26,7 +26,7 @@ function Thumb({ pictures }: Props) {
                     :
                     ""
             }
-
+            <p >{`${index+1}/${pictures.length}`}</p>
         </div>
     );
 }

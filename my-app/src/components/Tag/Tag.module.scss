@@ -7,4 +7,8 @@
     line-height: 20px;
     color: #FFFFFF;
     width: fit-content;
+    @media screen and (max-width: 768px) {
+        font-size: 10px;
+        line-height: 14px;
+      }
 }

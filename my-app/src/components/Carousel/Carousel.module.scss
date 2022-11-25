@@ -3,36 +3,57 @@
     width: 100%;
     height: 415px;
     border-radius: 25px;
+
     @media screen and (max-width: 768px) {
         height: 255px;
         border-radius: 10px;
     }
+
+    p {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        bottom: 25px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
     .pictures {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 25px;
+
         @media screen and (max-width: 768px) {
             border-radius: 10px;
         }
     }
+
     .arrow_right {
         position: absolute;
         right: 23px;
         top: 156px;
         cursor: pointer;
+
         @media screen and (max-width: 768px) {
             top: 118px;
             width: 12px;
             height: 20px;
         }
     }
+
     .arrow_left {
         position: absolute;
         left: 23px;
         top: 156px;
         transform: rotate(180deg);
         cursor: pointer;
+
         @media screen and (max-width: 768px) {
             top: 118px;
             width: 12px;

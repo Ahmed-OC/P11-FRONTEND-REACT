@@ -29,6 +29,7 @@ function Home() {
         <img src={bannerImg} alt="banner" />
         <p>Chez vous, partout et ailleurs</p>
       </div>
+      
       <div className="logement-container">
         {logements.map((logement, index) => {
           return <Thumb cover={logement.cover} title={logement.title} />;
