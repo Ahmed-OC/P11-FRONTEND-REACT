@@ -5,7 +5,7 @@ type Props = {
     pictures: string[];
 };
 
-function Thumb({ pictures }: Props) {
+function Carousel({ pictures }: Props) {
     const [index, setIndex] = useState(0)
 
 
@@ -31,4 +31,4 @@ function Thumb({ pictures }: Props) {
     );
 }
 
-export default Thumb;
+export default Carousel;
