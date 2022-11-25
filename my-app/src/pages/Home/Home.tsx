@@ -4,6 +4,7 @@ import { formatLogementForHome } from "../../formatter/Logement";
 import logementJson from "../../data/logements.json";
 import type { logement, logementHomeFormatted } from "../../type/logement.type";
 import Thumb from "../../components/Thumb/Thumb";
+import Carousel from '../../components/Carousel/Carousel'
 import bannerImg from "../../assets/images/home-banner.png";
 
 function Home() {
