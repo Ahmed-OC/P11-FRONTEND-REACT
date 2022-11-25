@@ -4,7 +4,7 @@ type Props = {
   cover: string;
 };
 
-function Thumb({ title, cover } : Props) {
+function Tag({ title, cover } : Props) {
   return (
     <div className={style.Thumb}>
       <img src={cover} alt={title} />
@@ -13,4 +13,4 @@ function Thumb({ title, cover } : Props) {
   );
 }
 
-export default Thumb;
+export default Tag;
