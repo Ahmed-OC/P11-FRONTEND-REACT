@@ -21,7 +21,9 @@
       font-size: 24px;
       font-weight: 500;
       line-height: 34px;
-
+      .active {
+        border-bottom: 1px solid #ff6060;
+      }
       a {
         text-decoration: none;
         color: #ff6060;
